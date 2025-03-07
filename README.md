@@ -1,1 +1,1 @@
-https://github.com/gladuolis/ono-tebe-nado
+https://github.com/gladuolis/ono-tebe-nado-fd
