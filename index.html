@@ -12,7 +12,7 @@
   <body>
     <header class="header">
       <nav class="header__menu">
-        <ul class="header__links-list text__nav-address">
+        <ul class="header__links-list menu__text">
           <li class="header__links-list-item">
             <a href="#header__logo" class="menu__link-no-underline">главная</a>
           </li>
@@ -24,54 +24,48 @@
           </li>
         </ul>
       </nav>
-      <div class="header__logo">
         <a href="black.svg">
           <img
-            class="header__logo-image"
+            class="header__logo-image header__logo"
             src="images/logo-black.svg"
-            alt="logo-black"
+            alt="Логотип черный Оно тебе надо"
             id="header__logo"
           />
         </a>
-      </div>
-      <address class="header__address text__nav-address">
+      <address class="header__address address">
         <p>
           <a href="tel:+99995555555">+9 999 555 5555</a>
           <br />
           <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
           <br />
-          <span>наб. Принсенграхт 263- <br />265, Амстердам</span>
+          наб. Принсенграхт 263- <br />265, Амстердам
         </p>
       </address>
     </header>
     <main>
       <section class="cover">
         <div class="overlay"></div>
-        <div class="cover__title">
-          <h1 class="cover__title-text">
+          <h1 class="cover__title cover__title-text">
             <span class="aligned-text">Оно</span>
             <span class="aligned-text_center">тебе</span>
             <span class="aligned-text_right"
               >над<span class="title__last-letter">о</span></span
             >
           </h1>
-        </div>
         <div class="cover__description">
           <p class="cover__description-text">
             Аукцион вещей, в которые никто не верил
           </p>
-          <button class="bet-button">Сделать ставку</button>
+          <button type="button" class="bet-button">Сделать ставку</button>
         </div>
       </section>
       <section class="lots">
-        <div class="lots__title">
-          <h2 class="lots__title-text" id="lots">Лоты</h2>
-        </div>
+          <h2 class="lots__title-text lots__title" id="lots">Лоты</h2>
         <ul class="lots__cards">
-          <li class="card">
-            <div class="overlay"></div>
+          <li>
             <a href="" class="card-link">
-              <article class="card__description">
+              <article class="card card__thomas-anderson">
+                <div class="overlay"></div>
                 <h3 class="card__title">
                   Фильм режиссёра, который бросил киношколу
                 </h3>
@@ -83,10 +77,10 @@
               </article>
             </a>
           </li>
-          <li class="card">
-            <div class="overlay"></div>
+          <li>
             <a href="" class="card-link">
-              <article class="card__description">
+              <article class="card card__book-uliss">
+                <div class="overlay"></div>
                 <h3 class="card__title">
                   Книга, где описан один скучный день из жизни рекламного агента
                 </h3>
@@ -101,10 +95,10 @@
               </article>
             </a>
           </li>
-          <li class="card">
-            <div class="overlay"></div>
+          <li>
             <a href="" class="card-link">
-              <article class="card__description">
+              <article class="card card__kandinsky">
+                <div class="overlay"></div>
                 <h3 class="card__title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
                 </h3>
@@ -118,15 +112,13 @@
             </a>
           </li>
         </ul>
-        <div class="lots__link">
-          <a href="" class="lots__look-more-link">посмотреть больше</a>
-        </div>
+          <a href="" class="lots__link lots__look-more-link">посмотреть больше</a>
       </section>
       <section class="about">
         <div class="about__logo">
           <img
             src="images/logo-white.svg"
-            alt="logo-white"
+            alt="Логотип белый Оно тебе надо"
             class="about__logo-image"
           />
         </div>
@@ -151,15 +143,17 @@
       </section>
     </main>
     <footer class="footer">
-      <address class="footer__address text__nav-address">
-        <a href="tel:+99995555555">+9 999 555 5555</a>
-        <br />
-        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        <br />
-        <span>наб. Принсенграхт 263-265,<br />Амстердам</span>
+      <address class="footer__address address">
+        <p>
+          <a href="tel:+99995555555">+9 999 555 5555</a>
+          <br />
+          <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+          <br />
+          наб. Принсенграхт 263-265,<br />Амстердам
+        </p>
       </address>
       <nav class="footer__menu">
-        <ul class="footer__menu-list text__nav-address">
+        <ul class="footer__menu-list menu__text">
           <li class="footer__menu-list-item">
             <a href="#header__logo" class="menu__link-no-underline">главная</a>
           </li>
