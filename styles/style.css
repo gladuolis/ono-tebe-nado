@@ -3,12 +3,11 @@
 }
 
 .header {
-  height: 293px;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   justify-content: center;
-  padding: 91px 50px;
+  padding: 92px 50px;
 }
 
 .header__menu {
@@ -32,7 +31,6 @@
   list-style: circle;
 }
 
-
 .menu__link-no-underline {
   text-decoration: none;
 }
@@ -50,12 +48,12 @@
 }
 
 .header__address {
-  display: flex;
-  justify-content: flex-end;
-  padding-right: 37px;
+  padding-left: 193px;
 }
 
 .address {
+  display: flex;
+  flex-direction: column;
   font-weight: 400;
   font-size: 18px;
   color: #000;
@@ -91,9 +89,6 @@
   margin-right: 50px;
   line-height: 134px;
   margin-top: 156px;
-}
-
-.cover__title-text {
   font-weight: 700;
   font-size: 100px;
   letter-spacing: 0.3em;
@@ -161,7 +156,7 @@
   margin: 180px 24px 120px 24px;
 }
 
-.lots__title-text {
+.lots__title {
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;
@@ -186,28 +181,23 @@
   min-height: 596px;
   width: 334px;
   padding: 48px 40px;
+  background-position: center;
+  background-size: cover;
 }
 
 .card__thomas-anderson {
-  background-image: url("../images/card-lot-01.jpg");
-  background-position: center;
-  background-size: cover;
+  background-image: url(../images/card-lot-01.jpg);
 }
 
 .card__book-uliss {
   background-image: url(../images/card-lot-02.jpg);
-  background-position: center;
-  background-size: cover;
 }
 
 .card__kandinsky {
   background-image: url(../images/card-lot-03.jpg);
-  background-position: center;
-  background-size: cover;
 }
 
 .card-link {
-  z-index: 2;
   text-decoration: none;
 }
 
@@ -241,7 +231,6 @@
   margin-left: 40px;
   margin-top: 31px;
 }
-
 
 .about {
   display: grid;
